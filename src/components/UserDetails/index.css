@@ -1,0 +1,164 @@
+/* Entire Page */
+
+.ReferralDetailsPage{
+    min-height:100vh;
+    background:#f5f7ff;
+    padding:40px 70px;
+}
+
+
+/* Back Link */
+
+.nav-link{
+    display:inline-block;
+    text-decoration:none;
+    color:#6366f1;
+    font-size:18px;
+    font-weight:600;
+    margin-bottom:40px;
+    cursor:pointer;
+}
+
+.nav-link:hover{
+    text-decoration:underline;
+}
+
+
+/* Heading Section */
+
+.aboutPage{
+    margin-bottom:45px;
+}
+
+.pageHeading{
+    font-size:56px;
+    font-weight:700;
+    color:#0f172a;
+    margin-bottom:14px;
+}
+
+.pageDescription{
+    font-size:22px;
+    color:#64748b;
+}
+
+
+/* Card */
+
+.UserDetailsBox{
+    width:100%;
+    max-width:1000px;
+    background:#ffffff;
+    border-radius:22px;
+    padding:55px;
+    box-shadow:0 8px 18px rgba(15,23,42,.08);
+}
+
+
+/* Top */
+
+.userHeader{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    margin-bottom:45px;
+}
+
+.userName{
+    font-size:56px;
+    font-weight:700;
+    color:#0f172a;
+    margin:0;
+}
+
+.serviceBadge{
+    background:#eef2ff;
+    color:#6366f1;
+    padding:14px 28px;
+    border-radius:999px;
+    font-size:22px;
+    font-weight:600;
+}
+
+
+/* Each Row */
+
+.detailRow{
+    display:grid;
+    grid-template-columns:250px 1fr;
+    align-items:center;
+    padding:28px 0;
+    border-top:1px solid #e5e7eb;
+}
+
+.detailLabel{
+    font-size:18px;
+    color:#64748b;
+    font-weight:700;
+    letter-spacing:1px;
+    text-transform:uppercase;
+    margin:0;
+}
+
+.detailValue{
+    font-size:20px;
+    color:#0f172a;
+    font-weight:700;
+    margin:0;
+}
+
+
+/* Responsive */
+
+@media screen and (max-width:768px){
+
+    .ReferralDetailsPage{
+        padding:25px;
+    }
+
+    .pageHeading{
+        font-size:36px;
+    }
+
+    .pageDescription{
+        font-size:18px;
+    }
+
+    .UserDetailsBox{
+        padding:28px;
+    }
+
+    .userHeader{
+        flex-direction:column;
+        align-items:flex-start;
+        gap:18px;
+    }
+
+    .userName{
+        font-size:34px;
+    }
+
+    .serviceBadge{
+        font-size:18px;
+        padding:10px 18px;
+    }
+
+    .detailRow{
+        grid-template-columns:1fr;
+        gap:10px;
+    }
+
+    .detailLabel{
+        font-size:15px;
+    }
+
+    .detailValue{
+        font-size:18px;
+    }
+
+}
+
+
+.Main{
+    margin: 30px;
+}

@@ -1,0 +1,58 @@
+.summary-list-item{
+    list-style-type:none;
+}
+
+.summary-item{
+
+    background:#ffffff;
+
+    border:1px solid #e8ebf3;
+
+    border-radius:14px;
+
+    padding:22px;
+
+    width:100%;
+
+    min-height:120px;
+
+    display:flex;
+
+    flex-direction:column;
+
+    justify-content:center;
+
+}
+
+.summary-label{
+
+    font-family:"Roboto";
+
+    font-size:12px;
+
+    font-weight:700;
+
+    letter-spacing:1px;
+
+    color:#64748b;
+
+    margin-bottom:12px;
+
+}
+
+.summary-value{
+
+    font-family:"Roboto";
+
+    font-size:28px;
+
+    font-weight:700;
+
+    color:#0f172a;
+
+}
+
+.service-value{
+
+    color:#5b5ce2;
+}

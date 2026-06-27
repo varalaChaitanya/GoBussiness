@@ -1,0 +1,154 @@
+.table-card{
+
+    background:transparent;
+
+}
+
+.referral-table{
+
+    width:100%;
+
+    border-collapse:collapse;
+
+}
+
+.referral-table thead{
+
+    background:#f7f8fc;
+
+}
+
+.referral-table th{
+
+    text-align:left;
+
+    padding:18px 24px;
+
+    font-size:13px;
+
+    letter-spacing:1px;
+
+    color:#64748b;
+
+    font-weight:700;
+
+}
+
+.referral-table td{
+
+    padding:20px 24px;
+
+    border-bottom:1px solid #eef2f7;
+
+    font-size:15px;
+
+    color:#334155;
+
+}
+
+.referral-table tbody tr:hover{
+
+    background:#fafafa;
+
+}
+
+.profit-column{
+
+    color:#5b5ce2;
+
+    font-weight:600;
+
+}
+
+.pagination-container{
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+    padding:24px;
+
+}
+
+.entries-text{
+
+    color:#64748b;
+
+    font-size:15px;
+
+}
+
+.pagination{
+
+    display:flex;
+
+    gap:10px;
+
+}
+
+.page-btn{
+
+    min-width:80px;
+
+    height:42px;
+
+    border:1px solid #e5e7eb;
+
+    background:white;
+
+    border-radius:12px;
+
+    color:#64748b;
+
+    cursor:pointer;
+
+}
+
+.page-btn:disabled{
+
+    opacity:.4;
+
+}
+
+.page-number{
+
+    width:42px;
+
+    height:42px;
+
+    border-radius:12px;
+
+    border:1px solid #e5e7eb;
+
+    background:white;
+
+    cursor:pointer;
+
+}
+
+.active-page{
+
+    background:#5b5ce2;
+
+    color:white;
+
+    border:none;
+
+}
+
+
+.table-row{
+
+    cursor:pointer;
+
+    transition:.25s;
+
+}
+
+.table-row:hover{
+
+    background:#f8fafc;
+
+}

@@ -1,0 +1,357 @@
+
+.Main-Container{
+  background-color: #ffffff;
+  height: 100%;
+  background-size: cover;
+  width: 100%;
+}
+
+.dashboard-heading{
+
+    margin-top:40px;
+
+    margin-bottom:30px;
+    margin-left: 40px;
+
+}
+
+
+.Main-heading{
+  font-family: "Roboto";
+  font-size: 30px;
+  font-weight: 800;
+
+  text-align: left;
+ 
+
+  color:#0f172a;
+
+  margin-bottom:10px;
+
+  
+}
+
+.description{
+  font-family: "Roboto";
+  font-size: 18px;
+  font-weight: 600;
+ 
+  text-align: left;
+  color:#64748b;
+
+    width:420px;
+
+    line-height:1.5;
+}
+
+
+.popupStyle{
+     position: "fixed";
+  top: "20px";
+  left: "50%";
+  transform: "translateX(-50%)";
+  background-color: "#222222";
+  color: "#ffffff";
+  padding: "10px 20px";
+  border-radius: "8px";
+  z-index: 9999;
+}
+
+.btnStyle{
+
+    padding: "10px 20px";
+  font-size: "16px";
+  cursor: "pointer";
+
+}
+
+
+.overview-card{
+
+    background:white;
+
+    border-radius:18px;
+
+    padding:28px;
+
+     box-shadow:0 6px 10px rgba(0,0,0,.08);
+    margin-top:35px;
+    margin-left:20px;
+    margin-right: 20px;
+}
+
+
+
+.overview-heading{
+
+    font-size:28px;
+
+    color:#0f172a;
+    text-align: left;
+    margin-left: 10px;
+
+    margin-bottom:25px;
+
+}
+
+.overview-list{
+    display:grid;
+    grid-template-columns:repeat(4, 1fr);
+    gap:20px;
+}
+
+
+@media screen and (max-width:1200px){
+
+    .overview-list{
+        grid-template-columns:repeat(2,1fr);
+    }
+
+}
+
+@media screen and (max-width:768px){
+
+    .overview-list{
+        grid-template-columns:1fr;
+    }
+
+}
+
+
+.service-card{
+
+    background:white;
+
+    border-radius:18px;
+
+    margin:35px 20px;
+
+    padding:25px;
+
+    box-shadow:0 2px 8px rgba(0,0,0,.08);
+
+}
+
+.service-heading{
+
+    font-size:26px;
+
+    margin-bottom:22px;
+
+}
+
+.service-list{
+
+    display:grid;
+
+    grid-template-columns:repeat(4,1fr);
+
+    gap:20px;
+
+}
+
+
+
+.referalContainer{
+
+    background-color:#ffffff;
+
+    margin:30px 20px;
+
+    padding:25px;
+
+    border-radius:18px;
+
+    box-shadow:0px 2px 8px rgba(0,0,0,0.08);
+
+}
+
+.referralHeading{
+
+    font-family:"Roboto";
+
+    font-size:28px;
+
+    font-weight:700;
+
+    color:#0f172a;
+
+    margin-bottom:30px;
+
+    text-align:left;
+
+}
+
+.ReferealLinkContainer{
+
+    display:grid;
+
+    grid-template-columns:1fr 1fr;
+
+    gap:30px;
+
+}
+
+.aboutLink{
+
+    font-family:"Roboto";
+
+    font-size:12px;
+
+    font-weight:700;
+
+    letter-spacing:1px;
+
+    color:#64748b;
+
+    margin-bottom:10px;
+
+}
+
+.LinkBox,
+.CodeBox{
+
+    display:flex;
+
+    align-items:center;
+
+}
+
+.LinkContainer,
+.CodeContainer{
+
+    flex:1;
+
+    height:52px;
+
+    border:1px solid #e5e7eb;
+
+    border-radius:12px 0px 0px 12px;
+
+    background:#f8fafc;
+
+    display:flex;
+
+    align-items:center;
+
+    padding-left:18px;
+
+    overflow:hidden;
+
+    position:relative;
+
+}
+
+.LinkContainer p,
+.CodeContainer p{
+
+    font-family:"Roboto";
+
+    font-size:15px;
+
+    color:#334155;
+
+    white-space:nowrap;
+
+    overflow:hidden;
+
+    text-overflow:ellipsis;
+
+}
+
+.btnStyle{
+
+    width:70px;
+
+    height:52px;
+
+    border:none;
+
+    border-radius:0px 12px 12px 0px;
+
+    background:#5b5ce2;
+
+    color:#ffffff;
+
+    font-size:14px;
+
+    font-weight:600;
+
+    cursor:pointer;
+
+    transition:.3s;
+
+}
+
+.btnStyle:hover{
+
+    background:#4748d8;
+
+}
+
+.popupStyle{
+
+    position:absolute;
+
+    top:-45px;
+
+    left:50%;
+
+    transform:translateX(-50%);
+
+    background:#111827;
+
+    color:white;
+
+    padding:8px 14px;
+
+    border-radius:8px;
+
+    font-size:13px;
+
+    white-space:nowrap;
+
+    z-index:100;
+
+    box-shadow:0px 4px 12px rgba(0,0,0,.2);
+
+}
+
+
+
+@media screen and (max-width:768px){
+
+.ReferealLinkContainer{
+
+    grid-template-columns:1fr;
+
+}
+
+}
+
+.referrals-card{
+
+    background:#ffffff;
+
+    margin:30px 20px;
+
+    border-radius:18px;
+
+    overflow:hidden;
+
+    box-shadow:0px 2px 8px rgba(0,0,0,.08);
+
+}
+
+.LoadingContainer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.loadingMesg{
+  font-size: 18px;
+  font-family: "Roboto";
+  font-weight: 600;
+  color:grey;
+}
